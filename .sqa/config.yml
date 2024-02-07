@@ -1,0 +1,42 @@
+config:
+  credentials: []
+  project_repos:
+    github.com/EOSC-synergy/sqaaas-tooling:
+      branch: release/2.0.0
+      repo: https://github.com/EOSC-synergy/sqaaas-tooling
+    github.com/stevenjgibbons/onestatphaserel2abs:
+      branch: main
+      repo: https://github.com/stevenjgibbons/onestatphaserel2abs
+environment:
+  JPL_DOCKERFORCEBUILD: enabled
+  JPL_KEEPGOING: enabled
+sqa_criteria:
+  QC.Acc:
+    repos:
+      github.com/stevenjgibbons/onestatphaserel2abs git:
+        commands:
+        - /usr/bin/env sh .sqa/script.squirrely-linen-mandrill.sh
+        container: qc.acc_goopy-ruby-owl
+  QC.Doc:
+    repos:
+      github.com/stevenjgibbons/onestatphaserel2abs find_doc_files.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.sickly-russet-starfish.sh
+        container: qc.doc_leaky-coral-bullfrog
+      github.com/stevenjgibbons/onestatphaserel2abs git:
+        commands:
+        - /usr/bin/env sh .sqa/script.seedy-cyan-lionfish.sh
+        container: qc.doc_droopy-gamboge-monkey
+  QC.Lic:
+    repos:
+      github.com/stevenjgibbons/onestatphaserel2abs licensee:
+        commands:
+        - /usr/bin/env sh .sqa/script.scaly-firebrick-tapir.sh
+        container: qc.lic_skimpy-platinum-rattlesnake
+  QC.Ver:
+    repos:
+      github.com/stevenjgibbons/onestatphaserel2abs get_git_tags.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.baggy-cinnamon-kudu.sh
+        container: qc.ver_lanky-amber-bulldog
+timeout: 5400
