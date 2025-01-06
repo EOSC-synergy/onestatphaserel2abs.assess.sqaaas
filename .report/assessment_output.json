@@ -1198,23 +1198,23 @@
             },
             "data": {
                 "entityType": "Assertion",
-                "entityId": "ODQKT55tRDSJZWQ29hji1w",
-                "openBadgeId": "https://api.eu.badgr.io/public/assertions/ODQKT55tRDSJZWQ29hji1w",
-                "createdAt": "2025-01-05T21:05:20.217505838Z",
+                "entityId": "ogmE7Aq_TYefJRvvf14nUw",
+                "openBadgeId": "https://api.eu.badgr.io/public/assertions/ogmE7Aq_TYefJRvvf14nUw",
+                "createdAt": "2025-01-06T05:23:16.363929598Z",
                 "createdBy": "aS1lWKgIR4u8bGjPZUzAyg",
                 "badgeclass": "UOmgyH_TSpSPXiro4aNBoQ",
                 "badgeclassOpenBadgeId": "https://api.eu.badgr.io/public/badges/UOmgyH_TSpSPXiro4aNBoQ",
                 "issuer": "aS1lWKgIR4u8bGjPZUzAyg",
                 "issuerOpenBadgeId": "https://api.eu.badgr.io/public/issuers/aS1lWKgIR4u8bGjPZUzAyg",
-                "image": "https://api.eu.badgr.io/public/assertions/ODQKT55tRDSJZWQ29hji1w/image",
+                "image": "https://api.eu.badgr.io/public/assertions/ogmE7Aq_TYefJRvvf14nUw/image",
                 "recipient": {
-                    "identity": "sha256$0cf7b9f8f396a972053b3bc8beebacb08e8f0cd3c30f73b84046fa27285c5beb",
+                    "identity": "sha256$e8d1d346bc2fde8d8e87955a2030347076fc5ffdb596b3f32a4b7ae5152de2e6",
                     "hashed": true,
                     "type": "url",
-                    "salt": "DaEiwQ35K1I9HJzX",
+                    "salt": "CGtvEnT5EX3635C2",
                     "plaintextIdentity": "https://github.com/stevenjgibbons/onestatphaserel2abs"
                 },
-                "issuedOn": "2025-01-05T21:05:20.217508565Z",
+                "issuedOn": "2025-01-06T05:23:16.363931919Z",
                 "narrative": "SQAaaS assessment results for repository https://github.com/stevenjgibbons/onestatphaserel2abs (commit: eeef363ecea8346efd203fd9e5d4db6557e85885, branch/tag: main)",
                 "evidence": [
                     {
@@ -1232,7 +1232,7 @@
                 "expires": null,
                 "extensions": {},
                 "assertionRef": {
-                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/ODQKT55tRDSJZWQ29hji1w"
+                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/ogmE7Aq_TYefJRvvf14nUw"
                 },
                 "badgeRef": {
                     "badgeUrl": "https://api.eu.badgr.io/public/badges/UOmgyH_TSpSPXiro4aNBoQ"
@@ -1244,10 +1244,10 @@
                 "source": "local",
                 "sourceUrl": null,
                 "originalJson": null,
-                "imagePath": "uploads/badges/assertion-ODQKT55tRDSJZWQ29hji1w.png"
+                "imagePath": "uploads/badges/assertion-ogmE7Aq_TYefJRvvf14nUw.png"
             },
-            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/ODQKT55tRDSJZWQ29hji1w?identity__url=https%3A//github.com/EOSC-synergy/onestatphaserel2abs.assess.sqaaas/commit/9735dc0c949a38bf8c57c82a4d7d7796216865e8\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/ODQKT55tRDSJZWQ29hji1w/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
-            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FODQKT55tRDSJZWQ29hji1w?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fonestatphaserel2abs.assess.sqaaas%2Fcommit%2F9735dc0c949a38bf8c57c82a4d7d7796216865e8&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fonestatphaserel2abs.assess.sqaaas%2Fcommit%2F9735dc0c949a38bf8c57c82a4d7d7796216865e8"
+            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/ogmE7Aq_TYefJRvvf14nUw?identity__url=https%3A//github.com/EOSC-synergy/onestatphaserel2abs.assess.sqaaas/commit/9735dc0c949a38bf8c57c82a4d7d7796216865e8\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/ogmE7Aq_TYefJRvvf14nUw/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
+            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FogmE7Aq_TYefJRvvf14nUw?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fonestatphaserel2abs.assess.sqaaas%2Fcommit%2F9735dc0c949a38bf8c57c82a4d7d7796216865e8&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fonestatphaserel2abs.assess.sqaaas%2Fcommit%2F9735dc0c949a38bf8c57c82a4d7d7796216865e8"
         }
     }
 }
